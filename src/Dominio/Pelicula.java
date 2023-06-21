@@ -36,7 +36,7 @@ public class Pelicula {
 
     @Override
     public String toString() {
-        return "Pelicula [ " + "Nombre : " + nombre + " ]";
+        return this.nombre;
     }
 
     public static void main(String[] args) {
